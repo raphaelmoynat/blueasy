@@ -1,0 +1,452 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    font-family: "Roboto";
+}
+
+
+.ble{
+    background-image:url("images/HERO.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.gris{
+    background-color: rgba(19, 19, 24, 0.6);
+}
+
+.logo{
+    color: white;
+    padding-left: 13%;
+}
+
+.blue{
+    color: aqua;
+}
+
+.menu{
+    padding-right: 13%;
+}
+
+.word{
+    padding-left: 10px;
+}
+
+.fond{
+    display: flex;
+    justify-content: center;
+    height: 85%;
+    align-items: center;
+}
+
+.punchline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.marge{
+    margin: 10px;
+    background-color: rgba(19, 19, 24, 0.6);
+}
+
+.service{
+    background-image:url("images/fondservices.png");
+    height: 50vh;
+}
+
+.serv{
+    padding-left: 13%;
+    padding-top:3%;
+    font-size: 1.4em;
+}
+
+.white{
+    color: white;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    padding-right: 13%;
+    padding-left: 13%;
+    color: white;
+}
+
+.carre{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.icone{
+    height: 3em;
+    width: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 7%;
+}
+
+.titre{
+    margin-bottom: 10%;
+    font-size: 1.3em;
+}
+
+.description{
+    font-size: 1em;
+    margin-bottom: 5%;
+    line-height: 1.5;
+}
+
+.coff{
+    background-image: url("images/coffee.png");
+}
+
+.instant{
+    background-image: url("images/instant.png");
+}
+
+.dslr{
+    background-image: url("images/dslr.png");
+}
+
+.frame{
+    background-image: url("images/frame.png");
+}
+
+.port{
+    background-color: white;
+    height: 80vh;
+    margin-bottom: 3% ;
+}
+
+.portfolio{
+    font-size: 1.4em;
+    padding-left: 13%;
+}
+
+.taille{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.black{
+    color: black;
+}
+
+.tableau{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image{
+    height: 30vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1%;
+}
+.une{
+    background-image: url("images/portfolio/1.png");
+}
+
+.deux{
+    background-image: url("images/portfolio/2.png");
+}
+
+.trois{
+    background-image: url("images/portfolio/3.png");
+}
+.quatre{
+    background-image: url("images/portfolio/4.png");
+}
+.cinq{
+    background-image: url("images/portfolio/5.png");
+}
+.six{
+    background-image: url("images/portfolio/6.png");
+}
+.sept{
+    background-image: url("images/portfolio/7.png");
+}
+.huit {
+    background-image: url("images/portfolio/8.png");
+}
+
+.just{
+    background-color: rgba(35, 35, 35, 0.66);
+    height: 70vh;
+}
+
+.texte{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.3em;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.video{
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gateau{
+    margin-bottom: 3%;
+    padding-right: 10%;
+    color: white;
+}
+
+.visitMe{
+    margin-left: 13%;
+    border: 0.3em #333333 solid;
+    color: #333333;
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.bord{
+    height: 4vh;
+    width: 8vw;
+    border: 0.3em solid #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton{
+    font-size: 0.8em;
+    background-color: transparent;
+    color: #333333;
+    border: none;
+}
+
+.twitter{
+    background-color: #4bcaff;
+    height: 45vh;
+    padding-top: 3%;
+}
+
+.oiseau{
+    background-image: url("images/twitter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twit{
+    padding:20px;
+}
+
+.cheesecake{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 13%;
+    padding-right: 40%;
+    color: white;
+    font-size: 1.6em;
+    line-height: 1.8;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.john{
+    background-image: url("images/whois.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+.doe{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3%;
+}
+
+.parag{
+    color: white;
+    padding-right: 4em;
+    line-height: 1.3;
+    font-size: 1.2em;
+}
+
+.carreLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.log{
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+    border: white 2px solid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ois{
+    background-image: url("images/twitter.png");
+}
+
+.google{
+    background-image: url("images/googleplus.png");
+}
+
+.dribble{
+    background-image: url("images/dribble.png");
+}
+
+.coffee{
+    background-image: url("images/coffee2.png");
+}
+
+.apostrophe{
+    background-image: url("images/guillemets.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chocolate{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 13%;
+    padding-right: 13%;
+    color: black;
+    font-size: 1.6em;
+    line-height: 1.8;
+}
+
+.walter{
+    font-size: 1.6em;
+    color: aqua;
+    padding-left: 13%;
+}
+
+.testimonials{
+    background-color: white;
+    height: 45vh;
+    padding-top: 3%;
+}
+
+.contact{
+    height: 95vh;
+    background-image: url("images/pipe2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fullName{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-right: 13%;
+    padding-left: 13%;
+}
+
+.nameEmail{
+    margin-top: 3%;
+    font-size: 1.6em;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+
+.input{
+    width: 35em;
+    height: 2em;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border: 0.2em white solid;
+}
+
+.linda{
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 1.2em
+}
+
+.message{
+    margin-left: 13%;
+    font-size: 1.6em;
+}
+
+.textaera{
+    margin-left: 13%;
+    width: 70%;
+    height: 25%;
+    background-color: transparent;
+    border: 0.2em white solid;
+}
+
+.boutonMessage{
+    margin-left: 13%;
+    margin-top: 2%;
+    height: 4vh;
+    width: 12vw;
+    border: 0.3em solid #4bcaff;
+    display: flex;
+    justify-content: center;
+    background-color: #4bcaff;
+    font-size: 1.5em;
+}
+
+.white{
+    color: white;
+}
+
+.bas{
+    background-color: #353f47;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4e5b63;
+    font-size: 1.3em;
+}
+
+.home{
+    margin-left: 13%;
+    display: flex;
+    align-items: center;
+}
+
+.aide{
+    margin-right: 3%;
+}
+
+.annee{
+    margin-right: 13%;
+}
